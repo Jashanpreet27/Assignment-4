@@ -12,6 +12,7 @@ Set<String> A=new HashSet<>();
             while(left<right){
                 if(a[left]+a[right]==requird){
                    // System.out.println(Arrays.asList(a[i],a[left],a[right]));
+                    // to remove dublicate entry use hash Set
                     A.add(a[i]+","+ a[left]+","+a[right]);
 left++;
 right--;
